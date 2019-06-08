@@ -5,7 +5,11 @@ LOGO 480 XXtreme Model contains the Lua script necessary for Brain2 OpenTX Integ
 
 
 Settings changed from stock OpenTX:
+
 -Splash Screen Changed
+
 -Radio Background Changed
+
 -Theme Color Changed from Red to Black
+
 -Removed most default images, since they were not useful to me, and especially not for helis :)
