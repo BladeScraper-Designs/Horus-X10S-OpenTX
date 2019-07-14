@@ -3,7 +3,7 @@ This repository contains the SD Card contents from my Horus X10S with OpenTX.  I
 
 
 
-# LOGO 480 XXtreme Model contains the Lua script necessary for Brain2 OpenTX Integration.
+**LOGO 480 XXtreme Model contains the Lua script necessary for Brain2 OpenTX Integration.**
 
 
 
