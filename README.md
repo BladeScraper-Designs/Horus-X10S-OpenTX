@@ -8,7 +8,7 @@ This repository contains the SD Card contents from my Horus X10S with OpenTX.  I
 
 
 
-# Settings changed from stock OpenTX:
+**Settings changed from stock OpenTX:
 
 -Splash Screen Changed
 
