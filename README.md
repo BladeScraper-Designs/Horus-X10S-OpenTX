@@ -18,6 +18,9 @@ LOGO 480 XXtreme Model contains the Lua script necessary for Brain2 OpenTX Integ
 -Removed most default images, since they were not useful to me, and especially not for helis :)
 
 
+# Model Images for Helicopters can be found in /Images/Model Images.  
+Simply put them into your Images folder on your radio's SD Card and you can use it as the image for your model.
+
 
 # Follow these steps in order to copy one of my models onto your radio (click image for higher quality):
 
