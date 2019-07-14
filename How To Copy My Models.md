@@ -1,4 +1,4 @@
-Follow these steps in order to copy one of my models onto your radio:
+Follow these steps in order to copy one of my models onto your radio (click image for higher quality):
 
 1. Download the x10s.otx file from here.  
 
