@@ -3,12 +3,12 @@ This repository contains the SD Card contents from my Horus X10S with OpenTX.  I
 
 
 
-LOGO 480 XXtreme Model contains the Lua script necessary for Brain2 OpenTX Integration.
+# LOGO 480 XXtreme Model contains the Lua script necessary for Brain2 OpenTX Integration.
 
 
 
 
-Settings changed from stock OpenTX:
+# Settings changed from stock OpenTX:
 
 -Splash Screen Changed
 
@@ -20,11 +20,7 @@ Settings changed from stock OpenTX:
 
 
 
-
-
-
-
-Follow these steps in order to copy one of my models onto your radio (click image for higher quality):
+# Follow these steps in order to copy one of my models onto your radio (click image for higher quality):
 
 1. Download the x10s.otx file from here.  
 
