@@ -19,6 +19,11 @@ Settings changed from stock OpenTX:
 -Removed most default images, since they were not useful to me, and especially not for helis :)
 
 
+
+
+
+
+
 Follow these steps in order to copy one of my models onto your radio (click image for higher quality):
 
 1. Download the x10s.otx file from here.  
