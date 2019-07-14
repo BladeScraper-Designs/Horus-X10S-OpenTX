@@ -7,7 +7,7 @@ Follow these steps in order to copy one of my models onto your radio:
 3. Connect your OpenTX radio to your computer.
 
 4. Click the "Read Models and Settings From Radio" in Companion.  This will create an otx tile of your radio called document1.otx.  If you already have one, you can open it.
-
+![](https://github.com/BladeScraper-Designs/Horus-X10S-OpenTX/blob/master/Images/readmodels.png?raw=true)
 5. Open my x10s.otx file in Companion. This will create a second window with my models visible.
 
 6. Find the model you want to copy from my radio.  Click and drag it onto your radio.
