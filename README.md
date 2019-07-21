@@ -15,7 +15,10 @@ As a result of these moved switches, the switch positions in the manual will not
 
 -Uses channel overrides for throttle outputs for use with governor.  If you're NOT running a governor, it will act like flat throttle curves.  I will eventually update this model to use curves like the N556 model does.
 
+
+
 **Synergy N556**
+
 -This model is properly set up with curves and flight modes.  This is the better way of doing helicopters on OpenTX, compared to using channel overrides like the LOGO 480 model does.  This helicopter model, like the LOGO 480 model, has three stunt modes, and no normal mode, however because it uses curves instead of overrides, it would be pretty easy to set up a normal mode if one wanted it.
 
 -Hot Start Prevention safety feature in use on this model.  It works by using a logic switch to check the state of the throttle hold switch.  If throttle hold is NOT enabled (it's off or in the AR bailout mode, positions 2-3) it will use a Special Function to override the Aux channel to -150.  Since SwitchGlo is on the Aux channel of the Brain2, SwitchGlo will not be allowed to ignite.  This effectively means that a hot start is impossible because the glow igniter will not ignite unless the throttle servo is in idle position.
