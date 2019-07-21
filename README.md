@@ -37,7 +37,7 @@ Simply put them into your Images folder on your radio's SD Card and you can use 
 ![](https://github.com/BladeScraper-Designs/Horus-X10S-OpenTX/blob/master/Images/HowTo/readmodels.png?raw=true)
 5. Open my x10s.otx file in Companion. This will create a second window with my models visible.
 ![](https://github.com/BladeScraper-Designs/Horus-X10S-OpenTX/blob/master/Images/HowTo/openmine.png?raw=true)
-6. Find the model you want to copy from my radio.  Click and drag it onto your radio.
+6. Find the model you want to copy from my radio.  Click and drag it onto your radio.  You can also copy and paste the model if click+drag isn't working.
 ![](https://github.com/BladeScraper-Designs/Horus-X10S-OpenTX/blob/master/Images/HowTo/drag.png?raw=true)
 ![](https://github.com/BladeScraper-Designs/Horus-X10S-OpenTX/blob/master/Images/HowTo/copied.png?raw=true)
 7. With your window highlighted, hit File>Save or Ctrl+S.  This will save the model to your radio's otx file.
