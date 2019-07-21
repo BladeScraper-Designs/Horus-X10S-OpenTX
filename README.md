@@ -4,7 +4,7 @@ This repository contains the SD Card contents from my Horus X10S with OpenTX.  I
 
 LOGO 480 XXtreme Model contains the Lua script necessary for Brain2 OpenTX Integration.
 
-Synergy N556 uses curves instead of channel overrides.  This is the better way to do things than the way the LOGO 480 model is set up.  Eventually I will do the same with the LOGO model.
+Synergy N556 uses curves instead of channel overrides for throttle.  This is the better way to do things.  Eventually I will do the same with the LOGO.
 
 Synergy N556 has hot-start prevention for use with SwitchGlo.  It will only allow SwitchGlo to ignite if throttle hold is on.
 
