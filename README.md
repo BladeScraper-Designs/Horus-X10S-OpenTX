@@ -36,7 +36,7 @@ As a result of these moved switches, the switch positions in the manual will not
 -This model is for use with the XSR-SIM FrSky Simulator Dongle with AccuRC.  It's super simple, but because the spoken flight modes are in global functions, it still has those. 
 
 # Spoken Flight Modes
-Spoken flight modes are global for all models so I don't have to use special functions for each model.  They're located in global functions.  
+Spoken flight modes are global for all models so I don't have to use special functions for each model.  They're located in global functions.  If you have a model (e.g. airplane) that you don't want spoken flight modes for, simply go to model setup first page and uncheck "Use Global Funcs".  If you want to have different spoken flight modes for that specific model you can create new ones in  the Special Functions page.
 
 # Settings changed from stock OpenTX:
 
