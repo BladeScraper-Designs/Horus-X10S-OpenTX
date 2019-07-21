@@ -10,6 +10,8 @@ This repository contains the SD Card contents from my Horus X10S with OpenTX.  I
 
 As a result of these moved switches, the switch positions in the manual will not be accurate.  If you have not changed any switches around, you will have to mess with the switches used for various features, and some (mainly the throttle hold switch) will not work as intended on radios with a 2-position throttle hold switch.
 
+-Volume is controlled by the left-most knob on the front of the radio.
+
 # Model-Specific Info
 **LOGO 480**
 
@@ -22,6 +24,16 @@ As a result of these moved switches, the switch positions in the manual will not
 -This model is properly set up with curves and flight modes.  This is the better way of doing helicopters on OpenTX, compared to using channel overrides like the LOGO 480 model does.  This helicopter model, like the LOGO 480 model, has three stunt modes, and no normal mode, however because it uses curves instead of overrides, it would be pretty easy to set up a normal mode if one wanted it.
 
 -Hot Start Prevention safety feature in use on this model.  It works by using a logic switch to check the state of the throttle hold switch.  If throttle hold is NOT enabled (it's off or in the AR bailout mode, positions 2-3) it will use a Special Function to override the Aux channel to -150.  Since SwitchGlo is on the Aux channel of the Brain2, SwitchGlo will not be allowed to ignite.  This effectively means that a hot start is impossible because the glow igniter will not ignite unless the throttle servo is in idle position.
+
+**Nano S2**
+
+-This model is super simple.  Because the Nano S2 runs the motor at 100% throttle in 3D mode no matter what throttle output you have, I just use channel overrides instead of curves, because curves would be useless in this case.  
+
+-The flight mode switch is set to the 3-position switch normally used for Normal/IU1/IU2.  SAFE mode (self-leveling and fixed pitch amount) does work.
+
+**AccuRC**
+
+-This model is for use with the XSR-SIM FrSky Simulator Dongle with AccuRC.  It's super simple, but because the spoken flight modes are in global functions, it still has those. 
 
 # Spoken Flight Modes
 Spoken flight modes are global for all models so I don't have to use special functions for each model.  They're located in global functions.  
