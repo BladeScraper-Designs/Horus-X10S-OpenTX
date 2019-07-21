@@ -9,8 +9,10 @@ Synergy N556 uses curves instead of channel overrides for throttle.  This is the
 Synergy N556 has hot-start prevention for use with SwitchGlo.  It will only allow SwitchGlo to ignite if throttle hold is on.
 
 
+# Spoken Flight Modes
+Spoken flight modes are global for all models so I don't have to use special functions for each model.  They're located in global functions.  
 
-**Settings changed from stock OpenTX:**
+# Settings changed from stock OpenTX:
 
 -Splash Screen Changed
 
