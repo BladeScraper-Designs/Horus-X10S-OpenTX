@@ -1,8 +1,13 @@
 # Horus X10S OpenTX
 This repository contains the SD Card contents from my Horus X10S with OpenTX.  It can be used as a reference or base for setting up your own models.  It also contains the .otx file for Companion 2.2.4 with my models and settings.
 
+# Model-Specific Info
+**LOGO 480**
 
-LOGO 480 XXtreme Model contains the Lua script necessary for Brain2 OpenTX Integration.
+-SD Card folder "BRAIN2" contains the script necessary for Brain2 + OpenTX Integration.
+
+-
+
 
 Synergy N556 uses curves instead of channel overrides for throttle.  This is the better way to do things.  Eventually I will do the same with the LOGO.
 
