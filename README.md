@@ -1,18 +1,24 @@
 # Horus X10S OpenTX
-This repository contains the SD Card contents from my Horus X10S with OpenTX.  It can be used as a reference or base for setting up your own models.  It also contains the .otx file for Companion 2.2.4 with my models and settings.
+This repository contains the SD Card contents from my Horus X10S with OpenTX.  It can be used as a reference or base for setting up your own models.  It also contains the .otx file for Companion 2.2.4 with my models and settings.  SD Card folder "BRAIN2" contains the script necessary for Brain2 + OpenTX Integration.
+
+# Info About My Radio
+-I have moved and replaced switches with different ones.  Throttle hold switch has been replaced with a 3-position switch instead of 2-position, similar to what the Vbar Control has.  This lets me use autorotation bailout with Brain2.  
+
+-I've put the momentary switch in the back left of the radio, it's being used for rescue with Brain2.
+
+-2 Position switch is on the back right of the radio.  For the N556 model, this is used for SwitchGlo.
+
+As a result of these moved switches, the switch positions in the manual will not be accurate.  If you have not changed any switches around, you will have to mess with the switches used for various features, and some (mainly the throttle hold switch) will not work as intended on radios with a 2-position throttle hold switch.
 
 # Model-Specific Info
 **LOGO 480**
 
--SD Card folder "BRAIN2" contains the script necessary for Brain2 + OpenTX Integration.
+-Uses channel overrides for throttle outputs for use with governor.  If you're NOT running a governor, it will act like flat throttle curves.  I will eventually update this model to use curves like the N556 model does.
 
--
+**Synergy N556**
+-This model is properly set up with curves and flight modes.  This is the better way of doing helicopters on OpenTX, compared to using channel overrides like the LOGO 480 model does.  This helicopter model, like the LOGO 480 model, has three stunt modes, and no normal mode, however because it uses curves instead of overrides, it would be pretty easy to set up a normal mode if one wanted it.
 
-
-Synergy N556 uses curves instead of channel overrides for throttle.  This is the better way to do things.  Eventually I will do the same with the LOGO.
-
-Synergy N556 has hot-start prevention for use with SwitchGlo.  It will only allow SwitchGlo to ignite if throttle hold is on.
-
+-Hot Start Prevention safety feature in use on this model.  It works by using a logic switch to check the state of the throttle hold switch.  If throttle hold is NOT enabled (it's off or in the AR bailout mode, positions 2-3) it will use a Special Function to override the Aux channel to -150.  Since SwitchGlo is on the Aux channel of the Brain2, SwitchGlo will not be allowed to ignite.  This effectively means that a hot start is impossible because the glow igniter will not ignite unless the throttle servo is in idle position.
 
 # Spoken Flight Modes
 Spoken flight modes are global for all models so I don't have to use special functions for each model.  They're located in global functions.  
