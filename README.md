@@ -54,6 +54,7 @@ Simply put them into your Images folder on your radio's SD Card and you can use 
 
 
 # Follow these steps in order to copy one of my models onto your radio (click image for higher quality):
+There are more models on the radio than you will see if you open my OTX file in Companion.  This is because the models have been deleted because I got rid of the model.  However, the model itself is still on the radio, it's just not shown in the model select menu.  If you want to see all models past and present, look at all of the model names in SD Card > MODELS and put those names in the text file SD Card > RADIO > models.txt.  In newer versions of OpenTX, like the version the Horus uses, the models are named in numerical order, rather than the filename being the same as the model name.  Because of that, the only way to know what model the bin file contains is to add it to the models.txt and see what shows up.
 
 1. Download the x10s.otx file from here.  
 
