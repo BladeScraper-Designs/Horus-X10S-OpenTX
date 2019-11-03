@@ -1,5 +1,5 @@
 # Horus X10S OpenTX
-This repository contains the SD Card contents from my Horus X10S with OpenTX.  It can be used as a reference or base for setting up your own models.  It also contains the .otx file for Companion 2.2.4 with my models and settings.  SD Card folder "BRAIN2" contains the script necessary for Brain2 + OpenTX Integration.
+This repository contains the SD Card contents from my Horus X10S with OpenTX.  It can be used as a reference or base for setting up your own models.  It also contains the .otx file for Companion 2.2.4 with my models and settings.  SD Card folder "BRAIN2" contains the script necessary for Brain2 + OpenTX Integration.  Everything here in the readme assumes you already have OpenTX 2.2.4 installed on your radio.
 
 # Info About My Radio
 -I have moved and replaced switches with different ones.  Throttle hold switch has been replaced with a 3-position switch instead of 2-position, similar to what the Vbar Control has.  This lets me use autorotation bailout with Brain2.  
@@ -52,28 +52,39 @@ Spoken flight modes are global for all models so I don't have to use special fun
 # Model Images for Helicopters can be found in /Images/Model Images.  
 Simply put them into your Images folder on your radio's SD Card and you can use it as the image for your model.  You can rename the image, but be aware it must be only 6 characters long in order to be able to use it.  They are all transparent PNG images, which looks really nice when being used as a model image.  If you'd like to make a contribution with your own images, send me an email with the image and I might upload it here.  The correct resolution is 192x106.
 
-# Viewing My Models In Companion/Simulator
-If you just want to view my models and setup as an example on how to set up your own, just download the .otx file from this repository and open it in Companion.  Most of the time, the .otx file will be automatically opened in Companion when you double click it, but if not, run the Companion software and press the Open button on the top bar, and select the .otx file you downloaded.
+
+# Viewing My Example Models
+If you wish to view my models and setups in order to have an example of how to set up your own models, follow these steps.
+
+1. Download SD Contents and .otx file from this repository.
+
+2. Open the Companion software.
+
+3. In Companion, make sure your radio profile is set up for the X10/S.  Set SD Structure Path to wherever you put the SD Contents you downloaded from this repository. It's important that you do this because the SD card contains images, sound files, and Lua scripts all of which are used for my models.  
+![](https://github.com/BladeScraper-Designs/Horus-X10S-OpenTX/blob/master/Images/HowTo/Settings.png?raw=true)
+
+4. Open my .otx file in Companion.  
+![](https://github.com/BladeScraper-Designs/Horus-X10S-OpenTX/blob/master/Images/HowTo/open.png?raw=true)
+
+5. At this point, you should see a window come up with my models in it.  If you click Simulate Radio, you should see a virtualized Horus X10/S with my models on it.  Controlling it with your keyboard can be a bit confusing to get used to, but you can use your mouse as well.
+![](https://github.com/BladeScraper-Designs/Horus-X10S-OpenTX/blob/master/Images/HowTo/simulator.png?raw=true)
 
 
-# Follow these steps in order to copy one of my models onto your radio (click image for higher quality):
-There are more models on the radio than you will see if you open my OTX file in Companion.  This is because the models have been deleted because I got rid of the model.  However, the model itself is still on the radio, it's just not shown in the model select menu.  If you want to see all models past and present, look at all of the model names in SD Card > MODELS and put those names in the text file SD Card > RADIO > models.txt.  In newer versions of OpenTX, like the version the Horus uses, the models are named in numerical order, rather than the filename being the same as the model name.  Because of that, the only way to know what model the bin file contains is to add it to the models.txt and see what shows up.
 
-1. Download the x10s.otx file from here.  
+# Importing my models onto your radio (Click image for higher quality)
+Follow the above steps to view my models, then:
 
-2. Open the Companion 2.2 software.
+1. Connect your Horus X10/S to your computer.
 
-3. Connect your OpenTX radio to your computer.
-
-4. Click the "Read Models and Settings From Radio" in Companion.  This will create an otx tile of your radio called document1.otx.  If you already have one, you can open it.
+2. Click the "Read Models and Settings From Radio" in Companion.  This will create an otx tile of your radio called document1.otx.  If you already have one (if you've done this before), you can open it now instead of reading models/settings.  However, in my opinion, it's best to read models and settings from your radio when doing something like this, so you know you have the most up-to-date models imported.
 ![](https://github.com/BladeScraper-Designs/Horus-X10S-OpenTX/blob/master/Images/HowTo/readmodels.png?raw=true)
-5. Open my x10s.otx file in Companion. This will create a second window with my models visible.
+3. Open my x10s.otx file in Companion. This will create a second window with my models visible.
 ![](https://github.com/BladeScraper-Designs/Horus-X10S-OpenTX/blob/master/Images/HowTo/openmine.png?raw=true)
-6. Find the model you want to copy from my radio.  Click and drag it onto your radio.  You can also copy and paste the model if click+drag isn't working.
+4. Find the model you want to copy from my radio.  Click and drag it onto your radio.  You can also copy and paste the model if click+drag isn't working.
 ![](https://github.com/BladeScraper-Designs/Horus-X10S-OpenTX/blob/master/Images/HowTo/drag.png?raw=true)
 ![](https://github.com/BladeScraper-Designs/Horus-X10S-OpenTX/blob/master/Images/HowTo/copied.png?raw=true)
-7. With your window highlighted, hit File>Save or Ctrl+S.  This will save the model to your radio's otx file.
+5. With your radio's model/settings highlighted, hit File>Save or Ctrl+S.  This will save the model to your radio's otx file.
 ![](https://github.com/BladeScraper-Designs/Horus-X10S-OpenTX/blob/master/Images/HowTo/save.png?raw=true)
-8. Press Write Models and Settings To Radio" in Companion.  
+6. Press Write Models and Settings To Radio" in Companion.  
 ![](https://github.com/BladeScraper-Designs/Horus-X10S-OpenTX/blob/master/Images/HowTo/write.png?raw=true)
-9. You're done!
+7. You're done!
