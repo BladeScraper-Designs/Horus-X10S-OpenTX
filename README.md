@@ -52,6 +52,9 @@ Spoken flight modes are global for all models so I don't have to use special fun
 # Model Images for Helicopters can be found in /Images/Model Images.  
 Simply put them into your Images folder on your radio's SD Card and you can use it as the image for your model.  You can rename the image, but be aware it must be only 6 characters long in order to be able to use it.  They are all transparent PNG images, which looks really nice when being used as a model image.  If you'd like to make a contribution with your own images, send me an email with the image and I might upload it here.  The correct resolution is 192x106.
 
+# Viewing My Models In Companion/Simulator
+If you just want to view my models and setup as an example on how to set up your own, just download the .otx file from this repository and open it in Companion.  Most of the time, the .otx file will be automatically opened in Companion when you double click it, but if not, run the Companion software and press the Open button on the top bar, and select the .otx file you downloaded.
+
 
 # Follow these steps in order to copy one of my models onto your radio (click image for higher quality):
 There are more models on the radio than you will see if you open my OTX file in Companion.  This is because the models have been deleted because I got rid of the model.  However, the model itself is still on the radio, it's just not shown in the model select menu.  If you want to see all models past and present, look at all of the model names in SD Card > MODELS and put those names in the text file SD Card > RADIO > models.txt.  In newer versions of OpenTX, like the version the Horus uses, the models are named in numerical order, rather than the filename being the same as the model name.  Because of that, the only way to know what model the bin file contains is to add it to the models.txt and see what shows up.
