@@ -76,7 +76,11 @@ Follow the above steps to view my models, then:
 
 1. Connect your Horus X10/S to your computer.
 
-2. Click the "Read Models and Settings From Radio" in Companion.  This will create an otx tile of your radio called document1.otx.  If you already have one (if you've done this before), you can open it now instead of reading models/settings.  However, in my opinion, it's best to read models and settings from your radio when doing something like this, so you know you have the most up-to-date models imported.
+2. Make sure the radio profile for your radio is selected.  Again, this guide assumes you have already created a profile and flashed your Horus X10/S with OpenTX 2.2.4.  
+
+3.  
+
+2. With your radio connected to the computer and in Mass Storage mode, click the "Read Models and Settings From Radio" in Companion.  This will create an otx tile of your radio called document1.otx.  If this radio has never been used before and has no new models, the file will be empty, but you still need it for this process.
 ![](https://github.com/BladeScraper-Designs/Horus-X10S-OpenTX/blob/master/Images/HowTo/readmodels.png?raw=true)
 3. Open my x10s.otx file in Companion. This will create a second window with my models visible.
 ![](https://github.com/BladeScraper-Designs/Horus-X10S-OpenTX/blob/master/Images/HowTo/openmine.png?raw=true)
