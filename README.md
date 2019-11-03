@@ -13,11 +13,6 @@ As a result of these moved switches, the switch positions in the manual will not
 -Volume is controlled by the left-most knob on the front of the radio.
 
 # Model-Specific Info
-**LOGO 480**
-
--Uses channel overrides for throttle outputs for use with governor.  If you're NOT running a governor, it will act like flat throttle curves.  I will eventually update this model to use curves like the N556 model does.
-
-
 
 **Synergy N556**
 
@@ -94,4 +89,4 @@ Follow the above steps to view my models, then:
 7. Press Write Models and Settings To Radio" in Companion.  
 ![](https://github.com/BladeScraper-Designs/Horus-X10S-OpenTX/blob/master/Images/HowTo/write.png?raw=true)
 
-8. Once this is done, click Synchronize SD Card in the top menu, which will copy the contents of Companion's SD Structure Path onto your radio's actual SD card.
+8. Once this is done, click Synchronize SD Card in the top menu, which will ensure your radio's SD card and the SD Structure Path have the same contents.
