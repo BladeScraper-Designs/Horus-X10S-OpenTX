@@ -78,15 +78,15 @@ Follow the above steps to view my models, then:
 
 2. Switch to your radio's profile instead of mine (Settings>Radio Profiles>Your Radio Profile).  Again, this guide assumes you have already created a profile and flashed your Horus X10/S with OpenTX 2.2.4.  
 
-2. With your radio connected to the computer and in Mass Storage mode, click the "Read Models and Settings From Radio" in Companion.  This will create an otx tile of your radio called document1.otx.  If this radio has never been used before and has no new models, the file will be empty, but you still need it for this process.
+3. With your radio connected to the computer and in Mass Storage mode, click the "Read Models and Settings From Radio" in Companion.  This will create an otx tile of your radio called document1.otx.  If this radio has never been used before and has no new models, the file will be empty, but you still need it for this process.
 ![](https://github.com/BladeScraper-Designs/Horus-X10S-OpenTX/blob/master/Images/HowTo/readmodels.png?raw=true)
-3. Open my x10s.otx file in Companion. This will create a second window with my models visible.
+4. Open my x10s.otx file in Companion. This will create a second window with my models visible.
 ![](https://github.com/BladeScraper-Designs/Horus-X10S-OpenTX/blob/master/Images/HowTo/openmine.png?raw=true)
-4. Find the model you want to copy from my radio.  Click and drag it onto your radio.  You can also copy and paste the model if click+drag isn't working.
+5. Find the model you want to copy from my radio.  Click and drag it onto your radio.  You can also copy and paste the model if click+drag isn't working.
 ![](https://github.com/BladeScraper-Designs/Horus-X10S-OpenTX/blob/master/Images/HowTo/drag.png?raw=true)
 ![](https://github.com/BladeScraper-Designs/Horus-X10S-OpenTX/blob/master/Images/HowTo/copied.png?raw=true)
-5. With your radio's model/settings highlighted, hit File>Save or Ctrl+S.  This will save the model to your radio's otx file.
+6. With your radio's model/settings highlighted, hit File>Save or Ctrl+S.  This will save the model to your radio's otx file.
 ![](https://github.com/BladeScraper-Designs/Horus-X10S-OpenTX/blob/master/Images/HowTo/save.png?raw=true)
-6. Press Write Models and Settings To Radio" in Companion.  
+7. Press Write Models and Settings To Radio" in Companion.  
 ![](https://github.com/BladeScraper-Designs/Horus-X10S-OpenTX/blob/master/Images/HowTo/write.png?raw=true)
-7. You're done!
+8. You're done!
