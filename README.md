@@ -89,4 +89,4 @@ Follow the above steps to view my models, then:
 7. Press Write Models and Settings To Radio" in Companion.  
 ![](https://github.com/BladeScraper-Designs/Horus-X10S-OpenTX/blob/master/Images/HowTo/write.png?raw=true)
 
-8. Once this is done, click Synchronize SD Card in the top menu, which will copy the new model off of your radio and into the SD Structure Path.
+8. Once this is done, click Synchronize SD Card in the top menu, which will ensure your radio's SD card and the SD Structure Path have the same contents.
