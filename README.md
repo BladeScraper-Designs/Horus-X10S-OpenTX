@@ -95,4 +95,4 @@ Follow the above steps to view my models, then:
 
 
 # Disclaimer
-This repository is provided without any implied warranty, service, or guarantee.  It is simply a place for me to share my Horus' setup, models, and settings.  I am not responsible for loss, damage, or injury caused by improper use of the files in this repository.  
+This repository is provided without any implied warranty, service, or guarantee.  It is simply a place for me to share my Horus' setup, models, and settings.  I am not responsible for loss, damage, or injury caused by the use of files in this repository.  
