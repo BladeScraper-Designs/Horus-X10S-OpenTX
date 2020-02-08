@@ -1,5 +1,5 @@
 # Horus X10S OpenTX
-This repository contains the SD Card contents from my Horus X10S with OpenTX.  It can be used as a reference or base for setting up your own models.  It also contains the .otx file for Companion 2.2.4 with my models and settings.  SD Card folder "BRAIN2" contains the script necessary for Brain2 + OpenTX Integration.  Everything here in the readme assumes you already have OpenTX 2.2.4 installed on your radio.
+This repository contains the SD Card contents from my Horus X10S with OpenTX.  It can be used as a reference or base for setting up your own models.  It also contains the .otx file for Companion 2.2.4 with my models and settings.  SD Card folder "BRAIN2" contains the script necessary for Brain2 + OpenTX Integration.  Everything here in the readme assumes you already have OpenTX 2.3.5 installed on your radio.  Older versions of OpenTX might not work with my models.
 
 # Info About My Radio
 -I have moved and replaced switches with different ones.  Throttle hold switch has been replaced with a 3-position switch instead of 2-position, similar to what the Vbar Control has.  This lets me use autorotation bailout with Brain2.  
@@ -90,3 +90,9 @@ Follow the above steps to view my models, then:
 ![](https://github.com/BladeScraper-Designs/Horus-X10S-OpenTX/blob/master/Images/HowTo/write.png?raw=true)
 
 8. Once this is done, click Synchronize SD Card in the top menu, which will ensure your radio's SD card and the SD Structure Path have the same contents.
+
+
+
+
+# Disclaimer
+This repository is provided without any implied warranty, service, or guarantee.  It is simply a place for me to share my Horus' setup, models, and settings.  I am not responsible for loss, damage, or injury caused by improper use of the files in this repository.  
