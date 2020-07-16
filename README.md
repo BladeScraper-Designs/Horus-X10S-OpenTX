@@ -6,7 +6,7 @@ This repository contains the SD Card contents from my Horus X10S with OpenTX.  I
 
 -I've put the momentary switch in the back left of the radio, it's being used for rescue with Brain2.
 
--2 Position switch is on the back right of the radio.  For the N556 model, this is used for SwitchGlo.
+-2 Position switch is on the back right of the radio.  For the nitro models equipped with a remote glow, I use this switch to control them.
 
 As a result of these moved switches, the switch positions in the manual will not be accurate or representative of how my models are set up.  If you have not changed any switches around, you will have to mess with the switches used for various features, and some (mainly the throttle hold switch) will not work as intended on radios with a 2-position throttle hold switch.
 
